@@ -1,0 +1,9 @@
+Package: com.abdullah.shahid
+Name: AdblockForShahid
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Block all ads in shahid app
+Maintainer: Abdullah <a@agabous.com
+Author: Abdullah <a@agabous.com>
+Section: Tweaks
