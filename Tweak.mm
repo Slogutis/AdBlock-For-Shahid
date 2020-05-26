@@ -15,6 +15,15 @@
   %orig(arg1);
   }
 %end
+  
+// fix jailbroken devices
+  
+  %hook ChromeCastManager
+-(void)getIsJailBroken:(id)arg1 {
+  arg1 = %orig
+  %orig(arg1);
+  }
+  %end
 
 // this was only to test if the tweak installed or no
 
